@@ -4150,11 +4150,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.Helper\\MT.OnlineRestaurant.Helper.csproj",
+      "projectUniqueName": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.Helper\\MT.OnlineRestaurant.Helper.csproj",
       "projectName": "MT.OnlineRestaurant.Helper",
-      "projectPath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.Helper\\MT.OnlineRestaurant.Helper.csproj",
+      "projectPath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.Helper\\MT.OnlineRestaurant.Helper.csproj",
       "packagesPath": "C:\\Users\\M1053196\\.nuget\\packages\\",
-      "outputPath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.Helper\\obj\\",
+      "outputPath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.Helper\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

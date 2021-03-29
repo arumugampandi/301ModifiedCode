@@ -1566,11 +1566,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.OrderManagement\\LoggingManagement\\LoggingManagement.csproj",
+      "projectUniqueName": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.OrderManagement\\LoggingManagement\\LoggingManagement.csproj",
       "projectName": "LoggingManagement",
-      "projectPath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.OrderManagement\\LoggingManagement\\LoggingManagement.csproj",
+      "projectPath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.OrderManagement\\LoggingManagement\\LoggingManagement.csproj",
       "packagesPath": "C:\\Users\\M1053196\\.nuget\\packages\\",
-      "outputPath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.OrderManagement\\LoggingManagement\\obj\\",
+      "outputPath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.OrderManagement\\LoggingManagement\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1590,8 +1590,8 @@
         "netcoreapp2.0": {
           "targetAlias": "netcoreapp2.0",
           "projectReferences": {
-            "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.OrderManagement\\MT.OnlineRestaurant.BusinessEntities\\MT.OnlineRestaurant.BusinessEntities.csproj": {
-              "projectPath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.OrderManagement\\MT.OnlineRestaurant.BusinessEntities\\MT.OnlineRestaurant.BusinessEntities.csproj"
+            "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.OrderManagement\\MT.OnlineRestaurant.BusinessEntities\\MT.OnlineRestaurant.BusinessEntities.csproj": {
+              "projectPath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.OrderManagement\\MT.OnlineRestaurant.BusinessEntities\\MT.OnlineRestaurant.BusinessEntities.csproj"
             }
           }
         }

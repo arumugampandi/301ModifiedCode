@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B5y0hCLvcpl8GO5B9tp0LJD7D98PEY42Vuem5CBl57do2brm7RNU9XOHofRSoFto1kEjskMQt/159H/aVKQb2A==",
+  "dgSpecHash": "PxTINWzX4JUBdk7vqTjuF7u4XDoHs7QW4F8faI1uBGx7JcSP90z+HXBGSRHiC/MIgt7yh1xSbdY8TJSNRlVzRQ==",
   "success": true,
-  "projectFilePath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.Helper\\MT.OnlineRestaurant.Helper.csproj",
+  "projectFilePath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.Helper\\MT.OnlineRestaurant.Helper.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\M1053196\\.nuget\\packages\\entityframework\\6.4.0-preview1-19506-01\\entityframework.6.4.0-preview1-19506-01.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",

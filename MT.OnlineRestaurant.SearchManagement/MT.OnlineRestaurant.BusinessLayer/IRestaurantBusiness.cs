@@ -21,5 +21,7 @@ namespace MT.OnlineRestaurant.BusinessLayer
         void RestaurantRating(RestaurantRating restaurantRating);
         int ItemInStock(int restaurantID,int menuID);
 
+        Task<bool> RestaurantRating(UpdateRestaurantRating updateRestaurantRating);
+       Task <RestaurantRating> GetRestaurantRating(int id,int restaurantId,int customerId);
     }
 }

@@ -682,11 +682,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.SearchManagement\\MT.OnlineRestaurant.Models\\MT.OnlineRestaurant.Models.csproj",
+      "projectUniqueName": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.SearchManagement\\MT.OnlineRestaurant.Models\\MT.OnlineRestaurant.Models.csproj",
       "projectName": "MT.OnlineRestaurant.Models",
-      "projectPath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.SearchManagement\\MT.OnlineRestaurant.Models\\MT.OnlineRestaurant.Models.csproj",
+      "projectPath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.SearchManagement\\MT.OnlineRestaurant.Models\\MT.OnlineRestaurant.Models.csproj",
       "packagesPath": "C:\\Users\\M1053196\\.nuget\\packages\\",
-      "outputPath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.SearchManagement\\MT.OnlineRestaurant.Models\\obj\\",
+      "outputPath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.SearchManagement\\MT.OnlineRestaurant.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

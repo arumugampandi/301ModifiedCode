@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "guvl/BYqYqSyfwkfHAMVj1MGIFDsTNYfjgHEtb3o4Qee81iKG1PWv/w6Mdc5Q4oH0MAr09CH2aOtnFoQsC3hZQ==",
+  "dgSpecHash": "DfEH/u6qC3q4Qajryw9rg6zhCMYa0t3bTDQ4HatN/OBf2j8iTTX/2SIS1t8aVZ4HSsXp/v7Bz1whE8FeTzLuRg==",
   "success": true,
-  "projectFilePath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.SearchManagement\\MT.OnlineRestaurant.UT\\MT.OnlineRestaurant.UT.csproj",
+  "projectFilePath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.SearchManagement\\MT.OnlineRestaurant.UT\\MT.OnlineRestaurant.UT.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\M1053196\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\libuv\\1.10.0\\libuv.1.10.0.nupkg.sha512",

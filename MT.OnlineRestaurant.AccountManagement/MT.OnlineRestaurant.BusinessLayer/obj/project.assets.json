@@ -3735,11 +3735,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.BusinessLayer\\MT.OnlineRestaurant.BusinessLayer.csproj",
+      "projectUniqueName": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.BusinessLayer\\MT.OnlineRestaurant.BusinessLayer.csproj",
       "projectName": "MT.OnlineRestaurant.BusinessLayer",
-      "projectPath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.BusinessLayer\\MT.OnlineRestaurant.BusinessLayer.csproj",
+      "projectPath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.BusinessLayer\\MT.OnlineRestaurant.BusinessLayer.csproj",
       "packagesPath": "C:\\Users\\M1053196\\.nuget\\packages\\",
-      "outputPath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.BusinessLayer\\obj\\",
+      "outputPath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.BusinessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3759,8 +3759,8 @@
         "netcoreapp2.0": {
           "targetAlias": "netcoreapp2.0",
           "projectReferences": {
-            "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestuarant.DataLayer\\MT.OnlineRestuarant.DataLayer.csproj": {
-              "projectPath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestuarant.DataLayer\\MT.OnlineRestuarant.DataLayer.csproj"
+            "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestuarant.DataLayer\\MT.OnlineRestuarant.DataLayer.csproj": {
+              "projectPath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestuarant.DataLayer\\MT.OnlineRestuarant.DataLayer.csproj"
             }
           }
         }

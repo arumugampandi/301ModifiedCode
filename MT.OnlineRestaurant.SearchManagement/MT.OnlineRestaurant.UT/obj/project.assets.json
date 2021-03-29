@@ -15086,11 +15086,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.SearchManagement\\MT.OnlineRestaurant.UT\\MT.OnlineRestaurant.UT.csproj",
+      "projectUniqueName": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.SearchManagement\\MT.OnlineRestaurant.UT\\MT.OnlineRestaurant.UT.csproj",
       "projectName": "MT.OnlineRestaurant.UT",
-      "projectPath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.SearchManagement\\MT.OnlineRestaurant.UT\\MT.OnlineRestaurant.UT.csproj",
+      "projectPath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.SearchManagement\\MT.OnlineRestaurant.UT\\MT.OnlineRestaurant.UT.csproj",
       "packagesPath": "C:\\Users\\M1053196\\.nuget\\packages\\",
-      "outputPath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.SearchManagement\\MT.OnlineRestaurant.UT\\obj\\",
+      "outputPath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.SearchManagement\\MT.OnlineRestaurant.UT\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -15110,17 +15110,17 @@
         "netcoreapp2.1": {
           "targetAlias": "netcoreapp2.1",
           "projectReferences": {
-            "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.SearchManagement\\MT.OnlineRestaurant.BusinessEntities\\MT.OnlineRestaurant.BusinessEntities.csproj": {
-              "projectPath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.SearchManagement\\MT.OnlineRestaurant.BusinessEntities\\MT.OnlineRestaurant.BusinessEntities.csproj"
+            "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.SearchManagement\\MT.OnlineRestaurant.BusinessEntities\\MT.OnlineRestaurant.BusinessEntities.csproj": {
+              "projectPath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.SearchManagement\\MT.OnlineRestaurant.BusinessEntities\\MT.OnlineRestaurant.BusinessEntities.csproj"
             },
-            "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.SearchManagement\\MT.OnlineRestaurant.BusinessLayer\\MT.OnlineRestaurant.BusinessLayer.csproj": {
-              "projectPath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.SearchManagement\\MT.OnlineRestaurant.BusinessLayer\\MT.OnlineRestaurant.BusinessLayer.csproj"
+            "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.SearchManagement\\MT.OnlineRestaurant.BusinessLayer\\MT.OnlineRestaurant.BusinessLayer.csproj": {
+              "projectPath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.SearchManagement\\MT.OnlineRestaurant.BusinessLayer\\MT.OnlineRestaurant.BusinessLayer.csproj"
             },
-            "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.SearchManagement\\MT.OnlineRestaurant.DataLayer\\MT.OnlineRestaurant.DataLayer.csproj": {
-              "projectPath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.SearchManagement\\MT.OnlineRestaurant.DataLayer\\MT.OnlineRestaurant.DataLayer.csproj"
+            "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.SearchManagement\\MT.OnlineRestaurant.DataLayer\\MT.OnlineRestaurant.DataLayer.csproj": {
+              "projectPath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.SearchManagement\\MT.OnlineRestaurant.DataLayer\\MT.OnlineRestaurant.DataLayer.csproj"
             },
-            "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.SearchManagement\\MT.OnlineRestaurant.SearchManagement\\MT.OnlineRestaurant.SearchManagement.csproj": {
-              "projectPath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.SearchManagement\\MT.OnlineRestaurant.SearchManagement\\MT.OnlineRestaurant.SearchManagement.csproj"
+            "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.SearchManagement\\MT.OnlineRestaurant.SearchManagement\\MT.OnlineRestaurant.SearchManagement.csproj": {
+              "projectPath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.SearchManagement\\MT.OnlineRestaurant.SearchManagement\\MT.OnlineRestaurant.SearchManagement.csproj"
             }
           }
         }

@@ -13244,11 +13244,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.AccountManagement.csproj",
+      "projectUniqueName": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.AccountManagement.csproj",
       "projectName": "MT.OnlineRestaurant.AccountManagement",
-      "projectPath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.AccountManagement.csproj",
+      "projectPath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.AccountManagement.csproj",
       "packagesPath": "C:\\Users\\M1053196\\.nuget\\packages\\",
-      "outputPath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.AccountManagement\\obj\\",
+      "outputPath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.AccountManagement\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13268,17 +13268,17 @@
         "netcoreapp2.0": {
           "targetAlias": "netcoreapp2.0",
           "projectReferences": {
-            "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.BusinessLayer\\MT.OnlineRestaurant.BusinessLayer.csproj": {
-              "projectPath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.BusinessLayer\\MT.OnlineRestaurant.BusinessLayer.csproj"
+            "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.BusinessLayer\\MT.OnlineRestaurant.BusinessLayer.csproj": {
+              "projectPath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.BusinessLayer\\MT.OnlineRestaurant.BusinessLayer.csproj"
             },
-            "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.Helper\\MT.OnlineRestaurant.Helper.csproj": {
-              "projectPath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.Helper\\MT.OnlineRestaurant.Helper.csproj"
+            "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.Helper\\MT.OnlineRestaurant.Helper.csproj": {
+              "projectPath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.Helper\\MT.OnlineRestaurant.Helper.csproj"
             },
-            "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.Logging\\MT.OnlineRestaurant.Logging.csproj": {
-              "projectPath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.Logging\\MT.OnlineRestaurant.Logging.csproj"
+            "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.Logging\\MT.OnlineRestaurant.Logging.csproj": {
+              "projectPath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.Logging\\MT.OnlineRestaurant.Logging.csproj"
             },
-            "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.ValidateUserHandler\\MT.OnlineRestaurant.ValidateUserHandler.csproj": {
-              "projectPath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.ValidateUserHandler\\MT.OnlineRestaurant.ValidateUserHandler.csproj"
+            "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.ValidateUserHandler\\MT.OnlineRestaurant.ValidateUserHandler.csproj": {
+              "projectPath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.ValidateUserHandler\\MT.OnlineRestaurant.ValidateUserHandler.csproj"
             }
           }
         }

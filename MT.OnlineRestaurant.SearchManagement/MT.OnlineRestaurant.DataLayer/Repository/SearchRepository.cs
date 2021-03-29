@@ -4,6 +4,7 @@ using System.Text;
 using MT.OnlineRestaurant.DataLayer.EntityFrameWorkModel;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 using MT.OnlineRestaurant.DataLayer.DataEntity;
 using Microsoft.Extensions.Options;
 
@@ -183,8 +184,8 @@ namespace MT.OnlineRestaurant.DataLayer.Repository
 
             List<RestaurantSearchDetails> restaurantInfo = new List<RestaurantSearchDetails>();
             restaurantInfo = restaurantsBasedOnLocation.Intersect(searchedRestaurantBasedOnRating, new RestaurantSearchDetailsComparer()).ToList<RestaurantSearchDetails>();
-            return  SearchRestaurantSortingBasedOnRating(restaurantInfo.AsQueryable(), searchDetails.search.rating);
-            
+            return SearchRestaurantSortingBasedOnRating(restaurantInfo.AsQueryable(), searchDetails.search.rating);
+
         }
 
 
@@ -202,6 +203,7 @@ namespace MT.OnlineRestaurant.DataLayer.Repository
             db.SaveChanges();
 
         }
+
         public TblMenu ItemInStock(int restaurantID, int menuID)
         {
             try
@@ -239,7 +241,7 @@ namespace MT.OnlineRestaurant.DataLayer.Repository
         #endregion
 
         #region private methods
-        private  List<RestaurantSearchDetails> GetRestaurantDetailsBasedOnRating(AddtitionalFeatureForSearch searchList)
+        private List<RestaurantSearchDetails> GetRestaurantDetailsBasedOnRating(AddtitionalFeatureForSearch searchList)
         {
             List<RestaurantSearchDetails> restaurants = new List<RestaurantSearchDetails>();
             try
@@ -401,5 +403,29 @@ namespace MT.OnlineRestaurant.DataLayer.Repository
         }
 
         #endregion
+
+        public async Task<bool> UpdateRestaurantRating(TblRating tblRating)
+        {
+            var ratingValue = db.TblRating.FirstOrDefault(x => x.Id == tblRating.Id);
+              
+            if (ratingValue != null)
+            {
+                ratingValue.Comments = tblRating.Comments ?? default;
+                ratingValue.Rating = tblRating.Rating;
+                ratingValue.RecordTimeStamp = DateTime.Now;
+                db.Set<TblRating>().Update(ratingValue);
+                return await db.SaveChangesAsync() > 0;
+            }
+
+            return false;
+
+        }
+
+        public async Task<TblRating> GetRestaurantRating(int id, int restaurantId, int customerId)
+        {
+            var ratingEntity = await db.TblRating.FirstOrDefaultAsync(x => x.Id == id && x.TblRestaurantId==restaurantId && x.TblCustomerId==customerId );
+            return ratingEntity;
+
+        }
     }
 }

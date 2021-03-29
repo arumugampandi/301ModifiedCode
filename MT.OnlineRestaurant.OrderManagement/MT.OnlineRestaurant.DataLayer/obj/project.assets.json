@@ -3639,11 +3639,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.OrderManagement\\MT.OnlineRestaurant.DataLayer\\MT.OnlineRestaurant.DataLayer.csproj",
+      "projectUniqueName": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.OrderManagement\\MT.OnlineRestaurant.DataLayer\\MT.OnlineRestaurant.DataLayer.csproj",
       "projectName": "MT.OnlineRestaurant.DataLayer",
-      "projectPath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.OrderManagement\\MT.OnlineRestaurant.DataLayer\\MT.OnlineRestaurant.DataLayer.csproj",
+      "projectPath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.OrderManagement\\MT.OnlineRestaurant.DataLayer\\MT.OnlineRestaurant.DataLayer.csproj",
       "packagesPath": "C:\\Users\\M1053196\\.nuget\\packages\\",
-      "outputPath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.OrderManagement\\MT.OnlineRestaurant.DataLayer\\obj\\",
+      "outputPath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.OrderManagement\\MT.OnlineRestaurant.DataLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

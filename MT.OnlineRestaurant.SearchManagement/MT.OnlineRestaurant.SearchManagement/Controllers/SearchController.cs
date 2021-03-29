@@ -135,5 +135,33 @@ namespace MT.OnlineRestaurant.SearchManagement.Controllers
             }
             return this.StatusCode((int)HttpStatusCode.InternalServerError, "error");
         }
+
+        [HttpPut]
+        [Route("ResturantRating")]
+        public async Task<IActionResult> PutResturantRating([FromQuery] UpdateRestaurantRating updateRestaurantRating)
+        {
+            if (!ModelState.IsValid)
+            {
+                return this.BadRequest();
+            }
+            var response = await business_Repo.RestaurantRating(updateRestaurantRating);
+            if (!response)
+                return BadRequest("No reviews are found.");
+            return this.Ok("Submitted the reviews");
+        }
+
+        [HttpGet]
+        [Route("RestaurantRatings")]
+        public async Task<IActionResult> RestaurantRatings(int id, int restaurantId, int customerId)
+        {
+            if (!ModelState.IsValid)
+            {
+                return this.BadRequest();
+            }
+            var response = await business_Repo.GetRestaurantRating(id, restaurantId, customerId);
+            if (response == null)
+                return BadRequest("No reviews are found.");
+            return this.Ok(response);
+        }
     }
 }

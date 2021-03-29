@@ -2,6 +2,7 @@
 using MT.OnlineRestaurant.DataLayer.EntityFrameWorkModel;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace MT.OnlineRestaurant.DataLayer.Repository
 {
@@ -26,6 +27,9 @@ namespace MT.OnlineRestaurant.DataLayer.Repository
 
         IQueryable<RestaurantSearchDetails> ApplyPaginationInSearchRestaurant(
             IQueryable<RestaurantSearchDetails> restaurantSearchDetails, Pagination pagination);
+
+        Task<bool> UpdateRestaurantRating(TblRating tblRating);
+        Task<TblRating> GetRestaurantRating(int id, int restaurantId,int customerId);
 
     }
 }

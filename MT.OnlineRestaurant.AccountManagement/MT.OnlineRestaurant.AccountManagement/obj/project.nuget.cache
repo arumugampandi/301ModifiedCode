@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NPMmzPjGGhvdxzDtYx5vsO2uJsXhhiaTZGexiTpiAx3A95/KgbJyY6WWBLpJnIwRpKZU6IzbbPfKIWOTDq9eXQ==",
+  "dgSpecHash": "E8/CZFu5Fcu5gux7pf+QKNAITl1ksMzBoyz+ct9NmuzsLN5gkY4TWk6Uv4ZSDEnVJOAPSnFa2Rn1NwejhnSuUQ==",
   "success": true,
-  "projectFilePath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.AccountManagement.csproj",
+  "projectFilePath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.AccountManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\M1053196\\.nuget\\packages\\entityframework\\6.4.0-preview1-19506-01\\entityframework.6.4.0-preview1-19506-01.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\libuv\\1.10.0\\libuv.1.10.0.nupkg.sha512",

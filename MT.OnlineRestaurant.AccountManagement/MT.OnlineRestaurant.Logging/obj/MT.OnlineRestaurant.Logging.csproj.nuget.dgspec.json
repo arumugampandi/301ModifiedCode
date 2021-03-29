@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.Logging\\MT.OnlineRestaurant.Logging.csproj": {}
+    "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.Logging\\MT.OnlineRestaurant.Logging.csproj": {}
   },
   "projects": {
-    "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.Logging\\MT.OnlineRestaurant.Logging.csproj": {
+    "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.Logging\\MT.OnlineRestaurant.Logging.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.Logging\\MT.OnlineRestaurant.Logging.csproj",
+        "projectUniqueName": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.Logging\\MT.OnlineRestaurant.Logging.csproj",
         "projectName": "MT.OnlineRestaurant.Logging",
-        "projectPath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.Logging\\MT.OnlineRestaurant.Logging.csproj",
+        "projectPath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.Logging\\MT.OnlineRestaurant.Logging.csproj",
         "packagesPath": "C:\\Users\\M1053196\\.nuget\\packages\\",
-        "outputPath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.Logging\\obj\\",
+        "outputPath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.Logging\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

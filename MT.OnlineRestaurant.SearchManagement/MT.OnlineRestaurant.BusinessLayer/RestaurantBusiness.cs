@@ -235,21 +235,21 @@ namespace MT.OnlineRestaurant.BusinessLayer
                     Menu = (string.IsNullOrEmpty(searchDetails.search.Menu) ? "" : searchDetails.search.Menu),
                     rating = (searchDetails.search.rating > 0) ? searchDetails.search.rating : 0
                 },
-               
-                
+
+
             };
-            
+
             var searchResponse = search_Repository.SearchForRestaurant(searchCriteria);
             var response = new ListResponse<RestaurantInformation>();
             if (searchResponse == null) return response;
             response.TotalRecord = searchResponse.Count();
 
             var pagination = new DataLayer.DataEntity.Pagination()
-                { CurrentPage = searchDetails.CurrentPage, PageSize = searchDetails.PageSize };
+            { CurrentPage = searchDetails.CurrentPage, PageSize = searchDetails.PageSize };
             var paginationResponse = search_Repository.ApplyPaginationInSearchRestaurant(searchResponse, pagination);
 
             var restaurantInfo = new List<RestaurantInformation>();
-            
+
 
             foreach (var restaurants in paginationResponse)
             {
@@ -342,6 +342,42 @@ namespace MT.OnlineRestaurant.BusinessLayer
             {
                 throw ex;
             }
+        }
+
+        public async Task<bool> RestaurantRating(UpdateRestaurantRating updateRestaurantRating)
+        {
+
+            if (updateRestaurantRating == null) return false;
+            var getRatingDetails = await search_Repository.GetRestaurantRating(updateRestaurantRating.RatingId,
+                updateRestaurantRating.RestaurantId, updateRestaurantRating.customerId);
+            if (getRatingDetails == null) return false;
+
+            var rating = new TblRating()
+            {
+                Rating = updateRestaurantRating.rating,
+                TblRestaurantId = updateRestaurantRating.RestaurantId,
+                Comments = updateRestaurantRating.user_Comments,
+                TblCustomerId = updateRestaurantRating.customerId,
+                Id = updateRestaurantRating.RatingId
+            };
+            return await search_Repository.UpdateRestaurantRating(rating);
+        }
+
+        public async Task<RestaurantRating> GetRestaurantRating(int id, int restaurantId,
+            int customerId)
+        {
+            if (id <= 0 || restaurantId <= 0 || customerId <= 0)
+                throw new ArgumentNullException("Invalid Input");
+            var response = await search_Repository.GetRestaurantRating(id, restaurantId, customerId);
+            if (response == null) return null; 
+            return new RestaurantRating
+            {
+                Id = response.Id,
+                RestaurantId = response.TblRestaurantId,
+                customerId = response.TblCustomerId,
+                user_Comments = response.Comments,
+                rating = response.Rating
+            };
         }
 
 

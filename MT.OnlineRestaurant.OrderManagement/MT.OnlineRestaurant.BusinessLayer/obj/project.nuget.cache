@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "maESgG0Yg2MblXfq9ZJjFdtYYzr2sBA28FJyuRXIA1Nkf0mUnAOzlO1+acfsZNP29dHv5Er8jBsIQSxO0bSwoQ==",
+  "dgSpecHash": "L8lhEJHqSZ09tH4s8XwxpXnJgs9IKl0Qid6z7WJw1rnXE7Cs+xlmANGRnUmm1kL2181ppPud/1j5U93PdrKX0Q==",
   "success": true,
-  "projectFilePath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.OrderManagement\\MT.OnlineRestaurant.BusinessLayer\\MT.OnlineRestaurant.BusinessLayer.csproj",
+  "projectFilePath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.OrderManagement\\MT.OnlineRestaurant.BusinessLayer\\MT.OnlineRestaurant.BusinessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\M1053196\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\M1053196\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",

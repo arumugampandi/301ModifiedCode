@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gFWFoyUfQVE97SJ2etgKEAAnHpx7XEtDm1ydNgorDuvwopWExax/ohYS7Wg82RVZQ5Z+gPfzp9GcGEwhSLY2og==",
+  "dgSpecHash": "/l5XcGxpQ3gUz3I4NJbVQDDR0vm7YiSQTr2DLkxbBVWLUE1tQqfW+KaK3xCwR8/3z73iMrPhfydfwYQ4YGS8Dw==",
   "success": true,
-  "projectFilePath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.SearchManagement\\MT.OnlineRestaurant.BusinessLayer\\MT.OnlineRestaurant.BusinessLayer.csproj",
+  "projectFilePath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.SearchManagement\\MT.OnlineRestaurant.BusinessLayer\\MT.OnlineRestaurant.BusinessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\M1053196\\.nuget\\packages\\microsoft.entityframeworkcore\\2.2.6\\microsoft.entityframeworkcore.2.2.6.nupkg.sha512",
     "C:\\Users\\M1053196\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\2.2.6\\microsoft.entityframeworkcore.abstractions.2.2.6.nupkg.sha512",

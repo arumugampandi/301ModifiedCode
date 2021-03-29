@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestuarant.DataLayer\\MT.OnlineRestuarant.DataLayer.csproj": {}
+    "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestuarant.DataLayer\\MT.OnlineRestuarant.DataLayer.csproj": {}
   },
   "projects": {
-    "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.BusinessEntities\\MT.OnlineRestaurant.BusinessEntities.csproj": {
+    "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.BusinessEntities\\MT.OnlineRestaurant.BusinessEntities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.BusinessEntities\\MT.OnlineRestaurant.BusinessEntities.csproj",
+        "projectUniqueName": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.BusinessEntities\\MT.OnlineRestaurant.BusinessEntities.csproj",
         "projectName": "MT.OnlineRestaurant.BusinessEntities",
-        "projectPath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.BusinessEntities\\MT.OnlineRestaurant.BusinessEntities.csproj",
+        "projectPath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.BusinessEntities\\MT.OnlineRestaurant.BusinessEntities.csproj",
         "packagesPath": "C:\\Users\\M1053196\\.nuget\\packages\\",
-        "outputPath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.BusinessEntities\\obj\\",
+        "outputPath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.BusinessEntities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -64,14 +64,14 @@
         }
       }
     },
-    "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestuarant.DataLayer\\MT.OnlineRestuarant.DataLayer.csproj": {
+    "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestuarant.DataLayer\\MT.OnlineRestuarant.DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestuarant.DataLayer\\MT.OnlineRestuarant.DataLayer.csproj",
+        "projectUniqueName": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestuarant.DataLayer\\MT.OnlineRestuarant.DataLayer.csproj",
         "projectName": "MT.OnlineRestuarant.DataLayer",
-        "projectPath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestuarant.DataLayer\\MT.OnlineRestuarant.DataLayer.csproj",
+        "projectPath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestuarant.DataLayer\\MT.OnlineRestuarant.DataLayer.csproj",
         "packagesPath": "C:\\Users\\M1053196\\.nuget\\packages\\",
-        "outputPath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestuarant.DataLayer\\obj\\",
+        "outputPath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestuarant.DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -91,8 +91,8 @@
           "netcoreapp2.0": {
             "targetAlias": "netcoreapp2.0",
             "projectReferences": {
-              "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.BusinessEntities\\MT.OnlineRestaurant.BusinessEntities.csproj": {
-                "projectPath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.BusinessEntities\\MT.OnlineRestaurant.BusinessEntities.csproj"
+              "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.BusinessEntities\\MT.OnlineRestaurant.BusinessEntities.csproj": {
+                "projectPath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.AccountManagement\\MT.OnlineRestaurant.BusinessEntities\\MT.OnlineRestaurant.BusinessEntities.csproj"
               }
             }
           }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gQxVhtiEZxWumZDajCI3r4HT0/2SwrthEnlJhELoyosdvsAMJAeJwjmXqBQ9bCgt4zPCTvltqzvS5gPFELKfxg==",
+  "dgSpecHash": "RUPvO32CfRXZccBAd44X9R34twri19+XwWAvKMquzsYkI6l6P5V01N53YD05ky2aJwvZqE0Oqk7HAihTQuLYOA==",
   "success": true,
-  "projectFilePath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.OrderManagement\\LoggingManagement\\LoggingManagement.csproj",
+  "projectFilePath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.OrderManagement\\LoggingManagement\\LoggingManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\M1053196\\.nuget\\packages\\microsoft.applicationinsights\\2.11.0\\microsoft.applicationinsights.2.11.0.nupkg.sha512",
     "C:\\Users\\M1053196\\.nuget\\packages\\microsoft.netcore.app\\2.0.0\\microsoft.netcore.app.2.0.0.nupkg.sha512",

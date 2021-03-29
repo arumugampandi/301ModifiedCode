@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Lpir5AJ58p0YyqPZVTJdpX9p62y7vHGUsHDe/tpqypQGOBkXUlDfMAxmKqc+Y11BdZB6XyOWz4IQSuekdPSlRg==",
+  "dgSpecHash": "hBCneNc00ZxzX6QSSBTwUbbLl2IXPHhi+8/JebCXQuhxxJXXm9qj4AR3bsOPIyoXRVNw2/5ooP44qQRdtZIhDQ==",
   "success": true,
-  "projectFilePath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.OrderManagement\\MT.OnlineRestaurant.DataLayer\\MT.OnlineRestaurant.DataLayer.csproj",
+  "projectFilePath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.OrderManagement\\MT.OnlineRestaurant.DataLayer\\MT.OnlineRestaurant.DataLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\M1053196\\.nuget\\packages\\microsoft.entityframeworkcore\\2.2.6\\microsoft.entityframeworkcore.2.2.6.nupkg.sha512",

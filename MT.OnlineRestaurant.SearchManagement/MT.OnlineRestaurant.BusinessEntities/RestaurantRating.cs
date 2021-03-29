@@ -6,6 +6,7 @@ namespace MT.OnlineRestaurant.BusinessEntities
 {
     public class RestaurantRating
     {
+        public int Id { get; set; }
         public int RestaurantId { get; set; }
         public string rating { get; set; }
         public string user_Comments { get; set; }
