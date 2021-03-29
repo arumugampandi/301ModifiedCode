@@ -1,0 +1,6 @@
+C:\workspace\test\301\mindtree-code-sample\MT.OnlineRestaurant.AccountManagement\MT.OnlineRestaurant.UT\bin\Debug\MT.OnlineRestaurant.UT.dll
+C:\workspace\test\301\mindtree-code-sample\MT.OnlineRestaurant.AccountManagement\MT.OnlineRestaurant.UT\bin\Debug\MT.OnlineRestaurant.UT.pdb
+C:\workspace\test\301\mindtree-code-sample\MT.OnlineRestaurant.AccountManagement\MT.OnlineRestaurant.UT\obj\Debug\MT.OnlineRestaurant.UT.csprojAssemblyReference.cache
+C:\workspace\test\301\mindtree-code-sample\MT.OnlineRestaurant.AccountManagement\MT.OnlineRestaurant.UT\obj\Debug\MT.OnlineRestaurant.UT.csproj.CoreCompileInputs.cache
+C:\workspace\test\301\mindtree-code-sample\MT.OnlineRestaurant.AccountManagement\MT.OnlineRestaurant.UT\obj\Debug\MT.OnlineRestaurant.UT.dll
+C:\workspace\test\301\mindtree-code-sample\MT.OnlineRestaurant.AccountManagement\MT.OnlineRestaurant.UT\obj\Debug\MT.OnlineRestaurant.UT.pdb

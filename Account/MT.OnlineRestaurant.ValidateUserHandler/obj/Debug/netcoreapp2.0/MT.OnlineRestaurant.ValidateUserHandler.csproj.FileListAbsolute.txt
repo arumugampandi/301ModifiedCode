@@ -1,0 +1,17 @@
+C:\workspace\test\301\mindtree-code-sample\Account\MT.OnlineRestaurant.ValidateUserHandler\bin\Debug\netcoreapp2.0\MT.OnlineRestaurant.ValidateUserHandler.deps.json
+C:\workspace\test\301\mindtree-code-sample\Account\MT.OnlineRestaurant.ValidateUserHandler\bin\Debug\netcoreapp2.0\MT.OnlineRestaurant.ValidateUserHandler.runtimeconfig.json
+C:\workspace\test\301\mindtree-code-sample\Account\MT.OnlineRestaurant.ValidateUserHandler\bin\Debug\netcoreapp2.0\MT.OnlineRestaurant.ValidateUserHandler.runtimeconfig.dev.json
+C:\workspace\test\301\mindtree-code-sample\Account\MT.OnlineRestaurant.ValidateUserHandler\bin\Debug\netcoreapp2.0\MT.OnlineRestaurant.ValidateUserHandler.dll
+C:\workspace\test\301\mindtree-code-sample\Account\MT.OnlineRestaurant.ValidateUserHandler\bin\Debug\netcoreapp2.0\MT.OnlineRestaurant.ValidateUserHandler.pdb
+C:\workspace\test\301\mindtree-code-sample\Account\MT.OnlineRestaurant.ValidateUserHandler\bin\Debug\netcoreapp2.0\MT.OnlineRestaurant.BusinessEntities.dll
+C:\workspace\test\301\mindtree-code-sample\Account\MT.OnlineRestaurant.ValidateUserHandler\bin\Debug\netcoreapp2.0\MT.OnlineRestuarant.DataLayer.dll
+C:\workspace\test\301\mindtree-code-sample\Account\MT.OnlineRestaurant.ValidateUserHandler\bin\Debug\netcoreapp2.0\MT.OnlineRestuarant.DataLayer.pdb
+C:\workspace\test\301\mindtree-code-sample\Account\MT.OnlineRestaurant.ValidateUserHandler\bin\Debug\netcoreapp2.0\MT.OnlineRestaurant.BusinessEntities.pdb
+C:\workspace\test\301\mindtree-code-sample\Account\MT.OnlineRestaurant.ValidateUserHandler\obj\Debug\netcoreapp2.0\MT.OnlineRestaurant.ValidateUserHandler.csprojAssemblyReference.cache
+C:\workspace\test\301\mindtree-code-sample\Account\MT.OnlineRestaurant.ValidateUserHandler\obj\Debug\netcoreapp2.0\MT.OnlineRestaurant.ValidateUserHandler.AssemblyInfoInputs.cache
+C:\workspace\test\301\mindtree-code-sample\Account\MT.OnlineRestaurant.ValidateUserHandler\obj\Debug\netcoreapp2.0\MT.OnlineRestaurant.ValidateUserHandler.AssemblyInfo.cs
+C:\workspace\test\301\mindtree-code-sample\Account\MT.OnlineRestaurant.ValidateUserHandler\obj\Debug\netcoreapp2.0\MT.OnlineRestaurant.ValidateUserHandler.csproj.CoreCompileInputs.cache
+C:\workspace\test\301\mindtree-code-sample\Account\MT.OnlineRestaurant.ValidateUserHandler\obj\Debug\netcoreapp2.0\MT.OnlineRestaurant.ValidateUserHandler.csproj.CopyComplete
+C:\workspace\test\301\mindtree-code-sample\Account\MT.OnlineRestaurant.ValidateUserHandler\obj\Debug\netcoreapp2.0\MT.OnlineRestaurant.ValidateUserHandler.dll
+C:\workspace\test\301\mindtree-code-sample\Account\MT.OnlineRestaurant.ValidateUserHandler\obj\Debug\netcoreapp2.0\MT.OnlineRestaurant.ValidateUserHandler.pdb
+C:\workspace\test\301\mindtree-code-sample\Account\MT.OnlineRestaurant.ValidateUserHandler\obj\Debug\netcoreapp2.0\MT.OnlineRestaurant.ValidateUserHandler.genruntimeconfig.cache

@@ -1,0 +1,12 @@
+C:\workspace\test\301\mindtree-code-sample\MT.OnlineRestaurant.OrderManagement\MT.OnlineRestaurant.DataLayer\bin\Debug\netcoreapp2.0\MT.OnlineRestaurant.DataLayer.deps.json
+C:\workspace\test\301\mindtree-code-sample\MT.OnlineRestaurant.OrderManagement\MT.OnlineRestaurant.DataLayer\bin\Debug\netcoreapp2.0\MT.OnlineRestaurant.DataLayer.runtimeconfig.json
+C:\workspace\test\301\mindtree-code-sample\MT.OnlineRestaurant.OrderManagement\MT.OnlineRestaurant.DataLayer\bin\Debug\netcoreapp2.0\MT.OnlineRestaurant.DataLayer.runtimeconfig.dev.json
+C:\workspace\test\301\mindtree-code-sample\MT.OnlineRestaurant.OrderManagement\MT.OnlineRestaurant.DataLayer\bin\Debug\netcoreapp2.0\MT.OnlineRestaurant.DataLayer.dll
+C:\workspace\test\301\mindtree-code-sample\MT.OnlineRestaurant.OrderManagement\MT.OnlineRestaurant.DataLayer\bin\Debug\netcoreapp2.0\MT.OnlineRestaurant.DataLayer.pdb
+C:\workspace\test\301\mindtree-code-sample\MT.OnlineRestaurant.OrderManagement\MT.OnlineRestaurant.DataLayer\obj\Debug\netcoreapp2.0\MT.OnlineRestaurant.DataLayer.csprojAssemblyReference.cache
+C:\workspace\test\301\mindtree-code-sample\MT.OnlineRestaurant.OrderManagement\MT.OnlineRestaurant.DataLayer\obj\Debug\netcoreapp2.0\MT.OnlineRestaurant.DataLayer.AssemblyInfoInputs.cache
+C:\workspace\test\301\mindtree-code-sample\MT.OnlineRestaurant.OrderManagement\MT.OnlineRestaurant.DataLayer\obj\Debug\netcoreapp2.0\MT.OnlineRestaurant.DataLayer.AssemblyInfo.cs
+C:\workspace\test\301\mindtree-code-sample\MT.OnlineRestaurant.OrderManagement\MT.OnlineRestaurant.DataLayer\obj\Debug\netcoreapp2.0\MT.OnlineRestaurant.DataLayer.csproj.CoreCompileInputs.cache
+C:\workspace\test\301\mindtree-code-sample\MT.OnlineRestaurant.OrderManagement\MT.OnlineRestaurant.DataLayer\obj\Debug\netcoreapp2.0\MT.OnlineRestaurant.DataLayer.dll
+C:\workspace\test\301\mindtree-code-sample\MT.OnlineRestaurant.OrderManagement\MT.OnlineRestaurant.DataLayer\obj\Debug\netcoreapp2.0\MT.OnlineRestaurant.DataLayer.pdb
+C:\workspace\test\301\mindtree-code-sample\MT.OnlineRestaurant.OrderManagement\MT.OnlineRestaurant.DataLayer\obj\Debug\netcoreapp2.0\MT.OnlineRestaurant.DataLayer.genruntimeconfig.cache

@@ -1,0 +1,9 @@
+C:\workspace\test\301\mindtree-code-sample\MT.OnlineRestaurant.SearchManagement\MT.OnlineRestaurant.Models\bin\Debug\netcoreapp3.1\MT.OnlineRestaurant.Models.deps.json
+C:\workspace\test\301\mindtree-code-sample\MT.OnlineRestaurant.SearchManagement\MT.OnlineRestaurant.Models\bin\Debug\netcoreapp3.1\MT.OnlineRestaurant.Models.dll
+C:\workspace\test\301\mindtree-code-sample\MT.OnlineRestaurant.SearchManagement\MT.OnlineRestaurant.Models\bin\Debug\netcoreapp3.1\MT.OnlineRestaurant.Models.pdb
+C:\workspace\test\301\mindtree-code-sample\MT.OnlineRestaurant.SearchManagement\MT.OnlineRestaurant.Models\obj\Debug\netcoreapp3.1\MT.OnlineRestaurant.Models.csprojAssemblyReference.cache
+C:\workspace\test\301\mindtree-code-sample\MT.OnlineRestaurant.SearchManagement\MT.OnlineRestaurant.Models\obj\Debug\netcoreapp3.1\MT.OnlineRestaurant.Models.AssemblyInfoInputs.cache
+C:\workspace\test\301\mindtree-code-sample\MT.OnlineRestaurant.SearchManagement\MT.OnlineRestaurant.Models\obj\Debug\netcoreapp3.1\MT.OnlineRestaurant.Models.AssemblyInfo.cs
+C:\workspace\test\301\mindtree-code-sample\MT.OnlineRestaurant.SearchManagement\MT.OnlineRestaurant.Models\obj\Debug\netcoreapp3.1\MT.OnlineRestaurant.Models.csproj.CoreCompileInputs.cache
+C:\workspace\test\301\mindtree-code-sample\MT.OnlineRestaurant.SearchManagement\MT.OnlineRestaurant.Models\obj\Debug\netcoreapp3.1\MT.OnlineRestaurant.Models.dll
+C:\workspace\test\301\mindtree-code-sample\MT.OnlineRestaurant.SearchManagement\MT.OnlineRestaurant.Models\obj\Debug\netcoreapp3.1\MT.OnlineRestaurant.Models.pdb

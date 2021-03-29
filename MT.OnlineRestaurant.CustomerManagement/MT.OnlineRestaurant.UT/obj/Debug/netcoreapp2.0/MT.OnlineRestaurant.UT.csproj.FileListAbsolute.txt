@@ -1,0 +1,9 @@
+C:\workspace\test\301\mindtree-code-sample\MT.OnlineRestaurant.CustomerManagement\MT.OnlineRestaurant.UT\bin\Debug\netcoreapp2.0\MT.OnlineRestaurant.UT.deps.json
+C:\workspace\test\301\mindtree-code-sample\MT.OnlineRestaurant.CustomerManagement\MT.OnlineRestaurant.UT\bin\Debug\netcoreapp2.0\MT.OnlineRestaurant.UT.dll
+C:\workspace\test\301\mindtree-code-sample\MT.OnlineRestaurant.CustomerManagement\MT.OnlineRestaurant.UT\bin\Debug\netcoreapp2.0\MT.OnlineRestaurant.UT.pdb
+C:\workspace\test\301\mindtree-code-sample\MT.OnlineRestaurant.CustomerManagement\MT.OnlineRestaurant.UT\obj\Debug\netcoreapp2.0\MT.OnlineRestaurant.UT.csprojAssemblyReference.cache
+C:\workspace\test\301\mindtree-code-sample\MT.OnlineRestaurant.CustomerManagement\MT.OnlineRestaurant.UT\obj\Debug\netcoreapp2.0\MT.OnlineRestaurant.UT.AssemblyInfoInputs.cache
+C:\workspace\test\301\mindtree-code-sample\MT.OnlineRestaurant.CustomerManagement\MT.OnlineRestaurant.UT\obj\Debug\netcoreapp2.0\MT.OnlineRestaurant.UT.AssemblyInfo.cs
+C:\workspace\test\301\mindtree-code-sample\MT.OnlineRestaurant.CustomerManagement\MT.OnlineRestaurant.UT\obj\Debug\netcoreapp2.0\MT.OnlineRestaurant.UT.csproj.CoreCompileInputs.cache
+C:\workspace\test\301\mindtree-code-sample\MT.OnlineRestaurant.CustomerManagement\MT.OnlineRestaurant.UT\obj\Debug\netcoreapp2.0\MT.OnlineRestaurant.UT.dll
+C:\workspace\test\301\mindtree-code-sample\MT.OnlineRestaurant.CustomerManagement\MT.OnlineRestaurant.UT\obj\Debug\netcoreapp2.0\MT.OnlineRestaurant.UT.pdb

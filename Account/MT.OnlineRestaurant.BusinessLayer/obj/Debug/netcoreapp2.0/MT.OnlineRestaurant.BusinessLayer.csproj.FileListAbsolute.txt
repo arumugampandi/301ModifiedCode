@@ -1,0 +1,14 @@
+C:\workspace\test\301\mindtree-code-sample\Account\MT.OnlineRestaurant.BusinessLayer\bin\Debug\netcoreapp2.0\MT.OnlineRestaurant.BusinessLayer.deps.json
+C:\workspace\test\301\mindtree-code-sample\Account\MT.OnlineRestaurant.BusinessLayer\bin\Debug\netcoreapp2.0\MT.OnlineRestaurant.BusinessLayer.dll
+C:\workspace\test\301\mindtree-code-sample\Account\MT.OnlineRestaurant.BusinessLayer\bin\Debug\netcoreapp2.0\MT.OnlineRestaurant.BusinessLayer.pdb
+C:\workspace\test\301\mindtree-code-sample\Account\MT.OnlineRestaurant.BusinessLayer\bin\Debug\netcoreapp2.0\MT.OnlineRestaurant.BusinessEntities.dll
+C:\workspace\test\301\mindtree-code-sample\Account\MT.OnlineRestaurant.BusinessLayer\bin\Debug\netcoreapp2.0\MT.OnlineRestuarant.DataLayer.dll
+C:\workspace\test\301\mindtree-code-sample\Account\MT.OnlineRestaurant.BusinessLayer\bin\Debug\netcoreapp2.0\MT.OnlineRestuarant.DataLayer.pdb
+C:\workspace\test\301\mindtree-code-sample\Account\MT.OnlineRestaurant.BusinessLayer\bin\Debug\netcoreapp2.0\MT.OnlineRestaurant.BusinessEntities.pdb
+C:\workspace\test\301\mindtree-code-sample\Account\MT.OnlineRestaurant.BusinessLayer\obj\Debug\netcoreapp2.0\MT.OnlineRestaurant.BusinessLayer.csprojAssemblyReference.cache
+C:\workspace\test\301\mindtree-code-sample\Account\MT.OnlineRestaurant.BusinessLayer\obj\Debug\netcoreapp2.0\MT.OnlineRestaurant.BusinessLayer.AssemblyInfoInputs.cache
+C:\workspace\test\301\mindtree-code-sample\Account\MT.OnlineRestaurant.BusinessLayer\obj\Debug\netcoreapp2.0\MT.OnlineRestaurant.BusinessLayer.AssemblyInfo.cs
+C:\workspace\test\301\mindtree-code-sample\Account\MT.OnlineRestaurant.BusinessLayer\obj\Debug\netcoreapp2.0\MT.OnlineRestaurant.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\workspace\test\301\mindtree-code-sample\Account\MT.OnlineRestaurant.BusinessLayer\obj\Debug\netcoreapp2.0\MT.OnlineRestaurant.BusinessLayer.csproj.CopyComplete
+C:\workspace\test\301\mindtree-code-sample\Account\MT.OnlineRestaurant.BusinessLayer\obj\Debug\netcoreapp2.0\MT.OnlineRestaurant.BusinessLayer.dll
+C:\workspace\test\301\mindtree-code-sample\Account\MT.OnlineRestaurant.BusinessLayer\obj\Debug\netcoreapp2.0\MT.OnlineRestaurant.BusinessLayer.pdb
