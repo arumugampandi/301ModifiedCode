@@ -1,7 +1,5 @@
-﻿using System;
-using System.Diagnostics.CodeAnalysis;
+﻿using System.Diagnostics.CodeAnalysis;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace MT.OnlineRestaurant.DataLayer.Context
 {
@@ -32,6 +30,10 @@ namespace MT.OnlineRestaurant.DataLayer.Context
         public virtual DbSet<TblPaymentType> TblPaymentType { get; set; }
         public virtual DbSet<TblTableOrder> TblTableOrder { get; set; }
         public virtual DbSet<TblTableOrderMapping> TblTableOrderMapping { get; set; }
+
+        public virtual DbSet<TblCart> TblCarts { get; set; }
+
+        public virtual DbSet<TblCartDetail> TblCartDetails { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -329,6 +331,60 @@ namespace MT.OnlineRestaurant.DataLayer.Context
                     .WithMany(p => p.TblTableOrderMapping)
                     .HasForeignKey(d => d.TblTableOrderId)
                     .HasConstraintName("FK_tblTableOrderMapping_tblTableOrderID");
+            });
+
+            modelBuilder.Entity<TblCart>(entity =>
+            {
+                entity.ToTable("tblCart");
+
+                entity.Property(e => e.Id).HasColumnName("Id");
+
+                entity.Property(e => e.CreateOn)
+                    .HasColumnType("datetime")
+                    .HasDefaultValueSql("((0))");
+                entity.Property(e => e.ModifiedOn)
+                    .HasColumnType("datetime")
+                    .HasDefaultValueSql("((0))");
+
+                entity.Property(e => e.RestaurantId)
+                    .HasColumnName("RestaurantId")
+                    .HasDefaultValueSql("((0))");
+
+                entity.Property(e => e.CustomerId)
+                    .HasColumnName("CustomerId")
+                    .HasDefaultValueSql("((0))");
+            });
+
+            modelBuilder.Entity<TblCartDetail>(entity =>
+            {
+                entity.ToTable("tblCartDetail");
+
+                entity.Property(e => e.Id).HasColumnName("Id");
+
+                entity.Property(e => e.CartId)
+                    .HasColumnName("CartId")
+                    .HasDefaultValueSql("((0))")
+                    .IsRequired(true);
+
+                entity.Property(e => e.Price).HasColumnType("decimal(18, 2)");
+
+                entity.Property(e => e.Quantity)
+                    .HasColumnName("Quantity")
+                    .HasDefaultValueSql("((0))");
+
+                entity.Property(e => e.ItemName)
+                    .IsRequired()
+                    .HasDefaultValueSql("('')");
+                entity.Property(e => e.ItemId)
+                    .HasColumnName("ItemId")
+                    .HasDefaultValueSql("((0))");
+
+                entity.HasOne(d => d.TblCart)
+                    .WithMany(p => p.TblCartDetails)
+                    .HasForeignKey(d => d.CartId)
+                    .HasConstraintName("FK_TblCart_tblCartId");
+
+
             });
         }
     }

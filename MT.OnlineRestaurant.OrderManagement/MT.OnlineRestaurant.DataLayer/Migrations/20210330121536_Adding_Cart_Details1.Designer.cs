@@ -4,14 +4,16 @@ using MT.OnlineRestaurant.DataLayer.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace MT.OnlineRestaurant.DataLayer.Migrations
 {
     [DbContext(typeof(OrderManagementContext))]
-    partial class OrderManagementContextModelSnapshot : ModelSnapshot
+    [Migration("20210330121536_Adding_Cart_Details1")]
+    partial class Adding_Cart_Details1
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

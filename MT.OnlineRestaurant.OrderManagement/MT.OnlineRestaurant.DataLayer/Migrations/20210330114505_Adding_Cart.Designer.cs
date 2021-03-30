@@ -4,14 +4,16 @@ using MT.OnlineRestaurant.DataLayer.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace MT.OnlineRestaurant.DataLayer.Migrations
 {
     [DbContext(typeof(OrderManagementContext))]
-    partial class OrderManagementContextModelSnapshot : ModelSnapshot
+    [Migration("20210330114505_Adding_Cart")]
+    partial class Adding_Cart
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -66,33 +68,6 @@ namespace MT.OnlineRestaurant.DataLayer.Migrations
                         .HasColumnName("CustomerId")
                         .HasDefaultValueSql("((0))");
 
-                    b.Property<DateTime>("ModifiedOn")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("datetime")
-                        .HasDefaultValueSql("((0))");
-
-                    b.Property<int>("RestaurantId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnName("RestaurantId")
-                        .HasDefaultValueSql("((0))");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("tblCart");
-                });
-
-            modelBuilder.Entity("MT.OnlineRestaurant.DataLayer.Context.TblCartDetail", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnName("Id")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<int>("CartId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnName("CartId")
-                        .HasDefaultValueSql("((0))");
-
                     b.Property<int>("ItemId")
                         .ValueGeneratedOnAdd()
                         .HasColumnName("ItemId")
@@ -103,6 +78,11 @@ namespace MT.OnlineRestaurant.DataLayer.Migrations
                         .ValueGeneratedOnAdd()
                         .HasDefaultValueSql("('')");
 
+                    b.Property<DateTime>("ModifiedOn")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime")
+                        .HasDefaultValueSql("((0))");
+
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18, 2)");
 
@@ -111,11 +91,14 @@ namespace MT.OnlineRestaurant.DataLayer.Migrations
                         .HasColumnName("Quantity")
                         .HasDefaultValueSql("((0))");
 
+                    b.Property<int>("RestaurantId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnName("RestaurantId")
+                        .HasDefaultValueSql("((0))");
+
                     b.HasKey("Id");
 
-                    b.HasIndex("CartId");
-
-                    b.ToTable("tblCartDetail");
+                    b.ToTable("tblCart");
                 });
 
             modelBuilder.Entity("MT.OnlineRestaurant.DataLayer.Context.TblFoodOrder", b =>
@@ -474,15 +457,6 @@ namespace MT.OnlineRestaurant.DataLayer.Migrations
                     b.HasIndex("TblTableOrderId");
 
                     b.ToTable("tblTableOrderMapping");
-                });
-
-            modelBuilder.Entity("MT.OnlineRestaurant.DataLayer.Context.TblCartDetail", b =>
-                {
-                    b.HasOne("MT.OnlineRestaurant.DataLayer.Context.TblCart", "TblCart")
-                        .WithMany("TblCartDetails")
-                        .HasForeignKey("CartId")
-                        .HasConstraintName("FK_TblCart_tblCartId")
-                        .OnDelete(DeleteBehavior.Cascade);
                 });
 
             modelBuilder.Entity("MT.OnlineRestaurant.DataLayer.Context.TblFoodOrder", b =>
