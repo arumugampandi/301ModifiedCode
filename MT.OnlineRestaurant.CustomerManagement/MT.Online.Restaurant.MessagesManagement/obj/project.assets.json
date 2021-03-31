@@ -13537,11 +13537,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.CustomerManagement\\MT.Online.Restaurant.MessagesManagement\\MT.Online.Restaurant.MessagesManagement.csproj",
+      "projectUniqueName": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.CustomerManagement\\MT.Online.Restaurant.MessagesManagement\\MT.Online.Restaurant.MessagesManagement.csproj",
       "projectName": "MT.Online.Restaurant.MessagesManagement",
-      "projectPath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.CustomerManagement\\MT.Online.Restaurant.MessagesManagement\\MT.Online.Restaurant.MessagesManagement.csproj",
+      "projectPath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.CustomerManagement\\MT.Online.Restaurant.MessagesManagement\\MT.Online.Restaurant.MessagesManagement.csproj",
       "packagesPath": "C:\\Users\\M1053196\\.nuget\\packages\\",
-      "outputPath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.CustomerManagement\\MT.Online.Restaurant.MessagesManagement\\obj\\",
+      "outputPath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.CustomerManagement\\MT.Online.Restaurant.MessagesManagement\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13561,8 +13561,8 @@
         "netcoreapp2.0": {
           "targetAlias": "netcoreapp2.0",
           "projectReferences": {
-            "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.CustomerManagement\\MT.OnlineRestaurant.BusinessLayer\\MT.OnlineRestaurant.BusinessLayer.csproj": {
-              "projectPath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.CustomerManagement\\MT.OnlineRestaurant.BusinessLayer\\MT.OnlineRestaurant.BusinessLayer.csproj"
+            "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.CustomerManagement\\MT.OnlineRestaurant.BusinessLayer\\MT.OnlineRestaurant.BusinessLayer.csproj": {
+              "projectPath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.CustomerManagement\\MT.OnlineRestaurant.BusinessLayer\\MT.OnlineRestaurant.BusinessLayer.csproj"
             }
           }
         }

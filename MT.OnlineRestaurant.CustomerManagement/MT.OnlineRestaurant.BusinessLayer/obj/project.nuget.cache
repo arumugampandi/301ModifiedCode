@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wYOxuQ2iKoQiFNsttoBdArYlbDD89q49clUW0YtLPHNjYN3DCYtDCaIxLQFashoafCwP+e7sAx2FaO++/ths7A==",
+  "dgSpecHash": "rAxLZKVke+TfqxQgvBPVI1ZIQloTw2j8h75CHCR8jk46zV3UiYg+FvKy4OtvIX1vpr3+nbvQoobvOqKxck/bIA==",
   "success": true,
-  "projectFilePath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.CustomerManagement\\MT.OnlineRestaurant.BusinessLayer\\MT.OnlineRestaurant.BusinessLayer.csproj",
+  "projectFilePath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.CustomerManagement\\MT.OnlineRestaurant.BusinessLayer\\MT.OnlineRestaurant.BusinessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\M1053196\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\M1053196\\.nuget\\packages\\fluentvalidation\\8.4.0\\fluentvalidation.8.4.0.nupkg.sha512",

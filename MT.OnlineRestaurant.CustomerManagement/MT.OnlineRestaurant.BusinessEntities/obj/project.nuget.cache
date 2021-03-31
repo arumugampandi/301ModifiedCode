@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EQHDu4xgTDwNCyvPmKFrvsl0JVSS2yz2VtvS+wbMhqDjQ9Ak3YrpSkud5iPkBr9VAE/xmHZaDrt7NzKINsY4xg==",
+  "dgSpecHash": "DdHkOas7svTvdApwTiDFCXOTXIJeBvx2ccfXhxoQj/wXZZqDVIyuGZ1vtfsMMUnaArJNP/XKwmhVqkJk0O565w==",
   "success": true,
-  "projectFilePath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.CustomerManagement\\MT.OnlineRestaurant.BusinessEntities\\MT.OnlineRestaurant.BusinessEntities.csproj",
+  "projectFilePath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.CustomerManagement\\MT.OnlineRestaurant.BusinessEntities\\MT.OnlineRestaurant.BusinessEntities.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\libuv\\1.10.0\\libuv.1.10.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.applicationinsights\\2.4.0\\microsoft.applicationinsights.2.4.0.nupkg.sha512",

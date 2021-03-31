@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 using MT.OnlineRestaurant.DataLayer.EntityFrameWorkModel;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
-using MT.OnlineRestaurant.Models;
 
 namespace MT.OnlineRestaurant.DataLayer.Repository
 {
@@ -27,9 +24,12 @@ namespace MT.OnlineRestaurant.DataLayer.Repository
                         where rating.TblRestaurantId == restaurantId
                         select new TblRating
                         {
+                            Id=rating.Id,
+                            TblRestaurantId = rating.TblRestaurantId,
                             Rating = rating.Rating,
                             Comments = rating.Comments,
                             TblRestaurant = restaurant,
+                            TblCustomerId = rating.TblCustomerId
                         }).AsQueryable();
             }
             return Enumerable.Empty<TblRating>().AsQueryable();

@@ -4,6 +4,31 @@
         <name>MT.OnlineRestaurant.OrderAPI</name>
     </assembly>
     <members>
+        <member name="T:MT.OnlineRestaurant.OrderAPI.Controllers.CartController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MT.OnlineRestaurant.OrderAPI.Controllers.CartController.#ctor(MT.OnlineRestaurant.BusinessLayer.interfaces.ICartService)">
+            <summary>
+            
+            </summary>
+            <param name="cartService"></param>
+        </member>
+        <member name="M:MT.OnlineRestaurant.OrderAPI.Controllers.CartController.Post(MT.OnlineRestaurant.BusinessEntities.AddCartEntity)">
+            <summary>
+            
+            </summary>
+            <param name="addCartEntity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MT.OnlineRestaurant.OrderAPI.Controllers.CartController.GetCartDetails(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="customerId"></param>
+            <returns></returns>
+        </member>
         <member name="T:MT.OnlineRestaurant.OrderAPI.Controllers.OrderFoodController">
             <summary>
             Food ordering controller

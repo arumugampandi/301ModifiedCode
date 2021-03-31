@@ -1,16 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Options;
 using MT.OnlineRestaurant.DataLayer.Context;
 using MT.OnlineRestaurant.DataLayer.interfaces;
 
 namespace MT.OnlineRestaurant.DataLayer
 {
-    class CartRepository : ICartRepository
+   public class CartRepository : ICartRepository
     {
         private readonly OrderManagementContext _context;
 
@@ -32,10 +30,6 @@ namespace MT.OnlineRestaurant.DataLayer
             return tblCart.Id;
         }
 
-        public Task DeleteCartDetails()
-        {
-            throw new NotImplementedException();
-        }
 
         public async Task<IReadOnlyCollection<TblCartDetail>> GetCartDetails(int cartId)
         {
@@ -55,9 +49,27 @@ namespace MT.OnlineRestaurant.DataLayer
             return response;
         }
 
-        public Task UpdateCartDetails()
+        public async Task<bool> UpdateCartDetails(List<TblCartDetail> tblCartDetails)
         {
-            throw new NotImplementedException();
+            _context.Set<TblCartDetail>().UpdateRange(tblCartDetails);
+            var response = await _context.SaveChangesAsync();
+            return response > 0;
+        }
+
+        public async Task<bool> DeleteCartDetails(int cartId)
+        {
+            var cartDetails = await _context.TblCartDetails.Where(x => x.CartId == cartId).ToListAsync();
+            _context.Set<TblCartDetail>().RemoveRange(cartDetails);
+            var response = await _context.SaveChangesAsync();
+            return response > 0;
+        }
+
+        public async Task<bool> DeleteCart(int cartId)
+        {
+            var cartDetail = await _context.TblCarts.Where(x => x.Id == cartId).ToListAsync();
+            _context.Set<TblCart>().RemoveRange(cartDetail);
+            var response = await _context.SaveChangesAsync();
+            return response > 0;
         }
     }
 }

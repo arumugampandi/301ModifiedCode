@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N6GkFYS+iA5ywxSejMhdL86ZoPJdnFsDuhFOjvz1Aac+wyxZpFQP0e2cOQHpoII6mnzQy0pJnY253OtuCEhbPA==",
+  "dgSpecHash": "9ST2uM8eivkmzlNtyblYx+1qrgdQteO+dNtja41VDCknkrK1zWiqACQ9Mg2EQJoLSZiReYEHNPoOT8RWVICaKw==",
   "success": true,
-  "projectFilePath": "C:\\workspace\\test\\301\\mindtree-code-sample\\MT.OnlineRestaurant.CustomerManagement\\MT.OnlineRestaurant.UT\\MT.OnlineRestaurant.UT.csproj",
+  "projectFilePath": "C:\\workspace\\test\\localcopy\\MT.OnlineRestaurant.CustomerManagement\\MT.OnlineRestaurant.UT\\MT.OnlineRestaurant.UT.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\M1053196\\.nuget\\packages\\microsoft.netcore.app\\2.0.0\\microsoft.netcore.app.2.0.0.nupkg.sha512",
     "C:\\Users\\M1053196\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.0.0\\microsoft.netcore.dotnetapphost.2.0.0.nupkg.sha512",

@@ -26,6 +26,7 @@ namespace MT.OnlineRestaurant.BusinessLayer
             {
                 RestaurantRating ratings = new RestaurantRating
                 {
+                    Id = item.Id,
                     rating = item.Rating,
                     RestaurantId = item.TblRestaurantId,
                     user_Comments = item.Comments,

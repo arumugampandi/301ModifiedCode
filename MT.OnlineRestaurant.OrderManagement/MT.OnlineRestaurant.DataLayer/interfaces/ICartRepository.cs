@@ -12,8 +12,8 @@ namespace MT.OnlineRestaurant.DataLayer.interfaces
 
         Task<bool> AddCartDetails(List<TblCartDetail> tblCartDetails);
         Task<int> AddCart(TblCart tblCart);
-
-        Task UpdateCartDetails();
-        Task DeleteCartDetails();
+        Task<bool> UpdateCartDetails(List<TblCartDetail> tblCartDetails);
+        Task<bool> DeleteCartDetails(int cartId);
+        Task<bool> DeleteCart(int cartId);
     }
 }

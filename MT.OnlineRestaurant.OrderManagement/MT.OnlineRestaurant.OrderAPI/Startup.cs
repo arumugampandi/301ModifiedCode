@@ -62,6 +62,9 @@ namespace MT.OnlineRestaurant.OrderAPI
             services.AddTransient<IPaymentDbAccess, PaymentDbAccess>();
             services.AddTransient<IBookYourTableBusiness, BookYourTableBusiness>();
             services.AddTransient<IBookYourTableRepository, BookYourTableRepository>();
+            services.AddTransient<ICartRepository, CartRepository>();
+            services.AddTransient<ICartService, CartService>();
+
             services.AddTransient<ILogService, LoggerService>();
             // Auto Mapper Configurations
             var mappingConfig = new MapperConfiguration(mc =>
@@ -110,7 +113,7 @@ namespace MT.OnlineRestaurant.OrderAPI
             {
                 c.SwaggerEndpoint("/swagger/v1.0/swagger.json", "OrderManager (V 1.0)");
             });
-            
+
             app.UseMvc();
         }
     }

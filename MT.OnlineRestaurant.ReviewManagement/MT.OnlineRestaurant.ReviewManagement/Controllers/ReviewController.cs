@@ -27,6 +27,20 @@ namespace MT.OnlineRestaurant.ReviewManagement.Controllers
             return restaurantRatings != null ? this.Ok(restaurantRatings) : this.StatusCode((int)HttpStatusCode.InternalServerError, string.Empty);
         }
 
+        [HttpGet]
+        [Route("RestaurantRatings/{id}")]
+        public async Task<IActionResult> RestaurantRating(int id, int restaurantId, int customerId)
+        {
+            if (!ModelState.IsValid)
+            {
+                return this.BadRequest();
+            }
+            var response = await _businessRepo.GetRestaurantRating(id, restaurantId, customerId);
+            if (response == null)
+                return BadRequest("No reviews are found.");
+            return this.Ok(response);
+        }
+
         [HttpPost]
         [Route("RestaurantRating")]
         public IActionResult RestaurantRating([FromQuery] RestaurantRating restaurantRating)
@@ -42,7 +56,7 @@ namespace MT.OnlineRestaurant.ReviewManagement.Controllers
         }
 
         [HttpPut]
-        [Route("RestaurantRating")]
+        [Route("RestaurantRating/{id}")]
         public async Task<IActionResult> PutRestaurantRating([FromQuery] UpdateRestaurantRating updateRestaurantRating)
         {
             if (!ModelState.IsValid)
@@ -55,18 +69,6 @@ namespace MT.OnlineRestaurant.ReviewManagement.Controllers
             return this.Ok("Submitted the reviews");
         }
 
-        [HttpGet]
-        [Route("RestaurantRatings")]
-        public async Task<IActionResult> RestaurantRatings(int id, int restaurantId, int customerId)
-        {
-            if (!ModelState.IsValid)
-            {
-                return this.BadRequest();
-            }
-            var response = await _businessRepo.GetRestaurantRating(id, restaurantId, customerId);
-            if (response == null)
-                return BadRequest("No reviews are found.");
-            return this.Ok(response);
-        }
+        
     }
 }

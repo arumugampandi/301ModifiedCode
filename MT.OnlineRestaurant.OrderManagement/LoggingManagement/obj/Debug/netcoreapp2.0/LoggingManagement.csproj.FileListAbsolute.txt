@@ -10,3 +10,15 @@ C:\workspace\test\301\mindtree-code-sample\MT.OnlineRestaurant.OrderManagement\L
 C:\workspace\test\301\mindtree-code-sample\MT.OnlineRestaurant.OrderManagement\LoggingManagement\obj\Debug\netcoreapp2.0\LoggingManagement.csproj.CopyComplete
 C:\workspace\test\301\mindtree-code-sample\MT.OnlineRestaurant.OrderManagement\LoggingManagement\obj\Debug\netcoreapp2.0\LoggingManagement.dll
 C:\workspace\test\301\mindtree-code-sample\MT.OnlineRestaurant.OrderManagement\LoggingManagement\obj\Debug\netcoreapp2.0\LoggingManagement.pdb
+C:\workspace\test\localcopy\MT.OnlineRestaurant.OrderManagement\LoggingManagement\bin\Debug\netcoreapp2.0\LoggingManagement.deps.json
+C:\workspace\test\localcopy\MT.OnlineRestaurant.OrderManagement\LoggingManagement\bin\Debug\netcoreapp2.0\LoggingManagement.dll
+C:\workspace\test\localcopy\MT.OnlineRestaurant.OrderManagement\LoggingManagement\bin\Debug\netcoreapp2.0\LoggingManagement.pdb
+C:\workspace\test\localcopy\MT.OnlineRestaurant.OrderManagement\LoggingManagement\bin\Debug\netcoreapp2.0\MT.OnlineRestaurant.BusinessEntities.dll
+C:\workspace\test\localcopy\MT.OnlineRestaurant.OrderManagement\LoggingManagement\bin\Debug\netcoreapp2.0\MT.OnlineRestaurant.BusinessEntities.pdb
+C:\workspace\test\localcopy\MT.OnlineRestaurant.OrderManagement\LoggingManagement\obj\Debug\netcoreapp2.0\LoggingManagement.csprojAssemblyReference.cache
+C:\workspace\test\localcopy\MT.OnlineRestaurant.OrderManagement\LoggingManagement\obj\Debug\netcoreapp2.0\LoggingManagement.AssemblyInfoInputs.cache
+C:\workspace\test\localcopy\MT.OnlineRestaurant.OrderManagement\LoggingManagement\obj\Debug\netcoreapp2.0\LoggingManagement.AssemblyInfo.cs
+C:\workspace\test\localcopy\MT.OnlineRestaurant.OrderManagement\LoggingManagement\obj\Debug\netcoreapp2.0\LoggingManagement.csproj.CoreCompileInputs.cache
+C:\workspace\test\localcopy\MT.OnlineRestaurant.OrderManagement\LoggingManagement\obj\Debug\netcoreapp2.0\LoggingManagement.csproj.CopyComplete
+C:\workspace\test\localcopy\MT.OnlineRestaurant.OrderManagement\LoggingManagement\obj\Debug\netcoreapp2.0\LoggingManagement.dll
+C:\workspace\test\localcopy\MT.OnlineRestaurant.OrderManagement\LoggingManagement\obj\Debug\netcoreapp2.0\LoggingManagement.pdb
